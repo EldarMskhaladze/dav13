@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+<script>
+
+// დავალება 1 start
+let dateOfBirth=1983;
+document.write("მე დავიბადე  " + dateOfBirth +"  წელს.");
+
+// დავალება 1 end
+document.write("<br><br>");
+
+
+
+// დავალება 2 start
+let myNoun = "ძაღლი";
+let myAdjective = "დიდი";
+let myVerb = "გაიქცა";
+let myAdverb = "სწრაფად";
+
+document.write(myAdjective +" "+ myNoun +" "+ myAdverb +" "+ myVerb +".");
+// დავალება 2 end
+document.write("<br><br>");
+
+
+// დავალება 3 start
+let color = "red";
+if (color=="red")
+    console.log(color + " არის ჩემი საყვარელი ფერი");
+else
+    console.log(color + " არ მომწონს");
+// დავალება 3 end
+
+
+
+// დავალება 4 start
+let numb = 52;
+if (numb % 2  == 1)
+    console.log("არჩეული რიცხვი კენტია");
+else
+    console.log("არჩეული რიცხვი ლუწია");
+// დავალება 4 end
+
+
+
+
+// დავალება 5 start  
+// იმედია ფერები არაა პრობლემა :)
+let age = prompt("შეიყვანეთ თქვენი ასაკი");
+
+if (age < 5)
+    document.write("<font color=red>გთხოვთ სწორად შეიყვანოთ ასაკი</font>");
+else if (age > 99)
+    document.write("<font color=red>გთხოვთ სწორად შეიყვანოთ ასაკი</font>");
+//ამ ორი if-ის გაერთიანებაც შეიძლებოდა: age<5-ზე  ან (or) age>99 :)
+else if (age<18)
+    document.write("თქვენ არ ხართ სრულწლოვანი");
+else
+    document.write("<font color=green>თქვენ ხართ სრულწლოვანი</font>");
+// დავალება 5 end
+
+
+
+
+
+</script>
+
+</body>
+</html>
